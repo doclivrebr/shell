@@ -22,125 +22,127 @@
 * [exec](pages/exec.md)
 * [exit](pages/exit.md)
 * [export](pages/export.md)
-* getopts
-* hash
-* pwd
-* readonly
-* return
-* shift
-* test ou \[ expressão \]
-* times
-* trap
-* umask
-* unset
+* [getopts](pages/getopts.md)
+* [hash](pages/hash.md)
+* [pwd](pages/pwd.md)
+* [readonly](pages/readonly.md)
+* [return](pages/return.md)
+* [shift](pages/shift.md)
+* [test ou \[ expressão \]](pages/test.md)
+* [times](pages/times.md)
+* [trap](pages/trap.md)
+* [umask](pages/umask.md)
+* [unset](pages/unset.md)
 
-### 3. Comandos internos do Bash
+### [3. Comandos internos do Bash](pages/3-comandos_internos_do_bash.md)
 
-* alias
-* bind
-* builtin
-* caller
-* command
-* declare
-* echo
-* enable
-* help
-* let
-* local
-* logout
-* mapfile
-* printf
-* read
-* readarray
-* source
-* type
-* typeset
-* ulimit
-* unalias
+* [alias](pages/alias.md)
+* [bind](pages/bind.md)
+* [builtin](pages/builtin.md)
+* [caller](pages/caller.md)
+* [command](pages/command.md)
+* [declare](pages/declare.md)
+* [echo](pages/echo.md)
+* [enable](pages/enable.md)
+* [help](pages/help.md)
+* [let](pages/let.md)
+* [local](pages/let.md)
+* [logout](pages/logout.md)
+* [mapfile](pages/mapfile.md)
+* [printf](pages/printf.md)
+* [read](pages/read.md)
+* [readarray](pages/readarray.md)
+* [source](pages/source.md)
+* [type](pages/type.md)
+* [typeset](pages/typeset.md)
+* [ulimit](pages/ulimit.md)
+* [unalias](pages/unalias.md)
 
-### 4. Modificando o comportamento do shell
+### [4. Modificando o comportamento do shell](pages/4-modificando_o_comportamento_do_shell.md)
 
-* O comando set
-* O comando shopt
+* [O comando set](pages/comando_set.md)
+* [O comando shopt](pages/comando_shopt.md)
 
-### 5. Variáveis
+### [5. Variáveis](pages/5-variaveis.md)
 
-* Variáveis herdadas
-* Variáveis do Bash
-* Criando e acessando variáveis
-* Variáveis especiais
-* Arrays
+* [Variáveis herdadas](pages/variaveis_herdadas.md)
+* [Variáveis do Bash](pages/variaveis_do_bash.md)
+* [Criando e acessando variáveis](pages/criando_e_acessando_variaveis.md)
+* [Variáveis especiais](pages/variaveis_especiais.md)
+* [Arrays](pages/arrays.md)
 
-### 6. Expansões
+### [6. Expansões](pages/6-expansoes.md)
 
-* Expansão de diretórios
-* Expansão de nomes de arquivos
-* Expansão de chaves
-* Expansão aritmética
-* Substituição de comando
-* Substituição de processo
-* Expansão de parâmetros
+* [Expansão de diretórios](pages/expansao_de_diretorios.md)
+* [Expansão de nomes de arquivos](pages/expansao_de_nomes_de_arquivos.md)
+* [Expansão de chaves](pages/expansao_de_chaves.md)
+* [Expansão aritmética](pages/expansao_aritmetica.md)
+* [Substituição de comando](pages/substituicao_de_comando.md)
+* [Substituição de processo](pages/substituicao_de_processo.md)
+* [Expansão de parâmetros](pages/expansao_de_parametros.md)
 
-### 7. Aspas
+### [7. Aspas](pages/7-aspas.md)
 
-* Como o Bash interpreta strings entre aspas
+* [Aspas duplas](pages/aspas_duplas.md)
+* [Aspas simples](pages/aspas_simples.md)
+* [Aspas simples com cifrão ($'...')](pages/aspas_simples_com_cifrao.md)
 
-### 8. Comandos compostos
+### [8. Comandos compostos](pages/8-comandos_compostos.md)
 
-* Estruturas de decisão
-  * if, elif, else
-  * case
-* Estruturas de repetição (loops)
-  * O loop for
-  * O loop while
-  * O loop until
-  * O loop select
-* Agrupamento de comandos
-* Expressões ariméticas
+* [Estruturas de decisão](pages/estruturas_de_decisao.md)
+  * [if, elif, else](pages/if_elif_else.md)
+  * [case](pages/case.md)
+* [Estruturas de repetição (loops)](pages/estruturas_de_repeticao.md)
+  * [O loop for](pages/loop_for.md)
+  * [O loop while](pages/loop_while.md)
+  * [O loop until](pages/loop_until.md)
+  * [O loop select](pages/loop_select.md)
+* [Agrupamento de comandos](pages/agrupamento_de_comandos.md)
+* [Expressões aritméticas](pages/expressoes_aritmeticas.md)
 
-### 9. Funções
+### [9. Funções](pages/9-funcoes.md)
 
-* Criando funções
-* Passando argumentos para funções
-* Retornando valores
-* Diferenciando funções de comandos com o mesmo nome
-* A variável FUNCNAME
+* [Criando funções](pages/criando_funcoes.md)
+* [Passando argumentos para funções](pages/passando_argumentos_para_funcoes.md)
+* [Retornando valores](pages/funcoes_retornando_valores.md)
+* [Diferenciando funções de comandos com mesmo nome](pages/diferenciando_funcoes_de_comandos_com_mesmo_nome.md)
+* [A variável FUNCNAME](pages/a_variavel_funcname.md)
 
-### 10. Redirecionamentos
+### [10. Redirecionamentos](pages/10-redirecionamentos.md)
 
-* Descritores de arquivos
-* STDIN, STDOUT e STDERR
-* Redirecionamento de entrada
-* Redirecionamento de saída
-* Redirecionamento para arquivos
-* Redirecionamento para a saída de erros padrão
-* "Here strings"
-* "Here documents"
-* Duplicando descritores de arquivos
-* Movendo descritores de arquivos
-* Abrindo descritores de arquivos para leitura e escrita
-* Pipes
-* Pipes nomeados
+* [Descritores de arquivos](pages/descritores_de_arquivos.md)
+* [STDIN, STDOUT e STDERR](pages/stdin_stdout_stderr.md)
+* [Redirecionamento de entrada](pages/redirecionamento_de_entrada.md)
+* [Redirecionamento de saída](pages/redirecionamento_de_saida.md)
+* [Redirecionamentos de e para arquivos](pages/redirecionamentos_de_e_para_arquivos.md)
+* [Redirecionamento para a saída de erros padrão](pages/redirecionamento_para_a_saida_de_erros_padrao.md)
+* ["Here strings"](pages/here_strings.md)
+* ["Here documents"](pages/here_documents.md)
+* [Duplicando descritores de arquivos](pages/duplicando_descritores_de_arquivos.md)
+* [Movendo descritores de arquivos](pages/movendo_descritores_de_arquivos.md)
+* [Abrindo descritores de arquivos para leitura e escrita](pages/abrindo_descritores_de_arquivos_para_leitura_e_escrita.md)
+* [Pipes](pages/pipes.md)
+* [Pipes nomeados](pages/pipes_nomeados.md)
 
-### 11. Expressões Regulares
+### [11. Expressões Regulares](pages/11-expressoes_regulares.md)
 
-### 12. Ferramentas e Utilitários
+### [12. Ferramentas e Utilitários](pages/12-ferramentas_e_utilitarios.md)
 
-* awk
-* ed
-* sed
-* tr
-* grep
-* cut
-* cat
-* head
-* tail
-* wc
-* bc
-* find
-* xargs
+* [awk](pages/awk.md)
+* [ed](pages/ed.md)
+* [sed](pages/sed.md)
+* [tr](pages/tr.md)
+* [grep](pages/grep.md)
+* [cut](pages/cut.md)
+* [cat](pages/cat.md)
+* [head](pages/head.md)
+* [tail](pages/tail.md)
+* [wc](pages/wc.md)
+* [bc](pages/bc.md)
+* [find](pages/find.md)
+* [xargs](pages/xargs.md)
 
-### 13. Casos e soluções (FAQ)
+### [13. Casos e soluções (FAQ)](pages/13-casos_e_solucoes.md)
 
 ## Ajuda da Wiki
 
