@@ -1,5 +1,3 @@
-# DocLivreBR - Shell e Bash
-
 ## Conteúdo
 
 ### 1. [Introdução](pages/1-introducao.md)
