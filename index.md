@@ -63,26 +63,70 @@
 
 ### 5. Variáveis
 
-- Variáveis
-- Arrays
-- Expansões
-- Expansões de parâmetros
-- Estruturas de decisão
-- Laços de repetição
-- Funções
-- Descritores de arquivos
-- Variáveis do Bash
-- Expressões Regulares
-- Ferramentas e Utilitários
-- Casos e soluções
+* Variáveis herdadas
+* Variáveis do Bash
+* Criando e acessando variáveis
+* Variáveis especiais
+* Arrays
 
-## Ajuda
+### 6. Expansões
 
-- Guia de Uso
-- Sintaxe de Edição
-- Sobre o projeto DocLivreBR
-- Nossos Colaboradores
-- Como colaborar
-- Contatos
-- Termos de uso
+* Expansão de diretórios
+* Expansão de nomes de arquivos
+* Expansão de chaves
+* Expansão aritmética
+* Substituição de comando
+* Substituição de processo
+* Expansão de parâmetros
+
+### 7. Aspas
+
+* Como o Bash interpreta strings entre aspas
+
+### 8. Comandos compostos
+
+* Estruturas de decisão
+* Estruturas de repetição (loops)
+* Agrupamento de comandos
+* Expressões ariméticas
+
+### 9. Funções
+
+* Criando funções
+* Passando argumentos para funções
+* Retornando valores
+* Diferenciando funções de comandos com o mesmo nome
+* A variável FUNCNAME
+
+### 10. Descritores de arquivos
+
+### 11. Expressões Regulares
+
+### 12. Ferramentas e Utilitários
+
+* awk
+* ed
+* sed
+* tr
+* grep
+* cut
+* cat
+* head
+* tail
+* wc
+* bc
+* find
+* xargs
+
+### 13. Casos e soluções (FAQ)
+
+## Ajuda da Wiki
+
+* Guia de Uso
+* Sintaxe de Edição
+* Sobre o projeto DocLivreBR
+* Nossos Colaboradores
+* Como colaborar
+* Contatos
+* Termos de uso
 
