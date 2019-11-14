@@ -11,7 +11,7 @@
 * Bash/shell scripts
 * Subshells
 
-### 2. Comandos internos herdados
+### 2. [shell/pages/comandos_internos_herdados.md](Comandos internos herdados)
 
 * . (ponto)
 * : (dois pontos)
@@ -88,7 +88,13 @@
 ### 8. Comandos compostos
 
 * Estruturas de decisão
+  * if, elif, else
+  * case
 * Estruturas de repetição (loops)
+  * O loop for
+  * O loop while
+  * O loop until
+  * O loop select
 * Agrupamento de comandos
 * Expressões ariméticas
 
