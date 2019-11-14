@@ -9,6 +9,7 @@
 * Outros shells
 * Padrões POSIX
 * Bash/shell scripts
+* Subshells
 
 ### 2. Comandos internos herdados
 
@@ -99,7 +100,21 @@
 * Diferenciando funções de comandos com o mesmo nome
 * A variável FUNCNAME
 
-### 10. Descritores de arquivos
+### 10. Redirecionamentos
+
+* Descritores de arquivos
+* STDIN, STDOUT e STDERR
+* Redirecionamento de entrada
+* Redirecionamento de saída
+* Redirecionamento para arquivos
+* Redirecionamento para a saída de erros padrão
+* "Here strings"
+* "Here documents"
+* Duplicando descritores de arquivos
+* Movendo descritores de arquivos
+* Abrindo descritores de arquivos para leitura e escrita
+* Pipes
+* Pipes nomeados
 
 ### 11. Expressões Regulares
 
