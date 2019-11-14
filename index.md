@@ -1,4 +1,4 @@
-# DocLivreBR - Bash e Shell
+# DocLivreBR - Shell e Bash
 
 ## Conteúdo
 
@@ -7,6 +7,7 @@
 * O que é o shell
 * O Bash
 * Outros shells
+* Padrões POSIX
 * Bash/shell scripts
 
 ### 2. Comandos internos herdados
@@ -26,7 +27,7 @@
 * readonly
 * return
 * shift
-* test ou [ expressão ]
+* test ou \[ expressão \]
 * times
 * trap
 * umask
